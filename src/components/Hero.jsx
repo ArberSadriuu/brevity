@@ -11,9 +11,8 @@ const Hero = () => {
         Summarize Articles with <br className='max-md:hidden' />
         <span className='orange_gradient '>OpenAI GPT-4</span>
       </h1>
-      <h2 className='desc'>
-      "Streamline your reading experience with <span className='text-orange-300'>Summily</span>, the open-source article summarization tool that condenses lengthy articles into concise summaries."
-      </h2>
+      <h2 className='desc text-red'>
+      "We're updating this application, please try again later... :)"</h2>
     </header>
     )
 }
