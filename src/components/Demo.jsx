@@ -51,7 +51,7 @@ const Demo = () => {
 
     return (
         <section className='mt-16 w-full max-w-xl'>
-            {/* Search */}
+            {/* Search 
             <div className='flex flex-col w-full gap-2'>
                 <form className='relative flex justify-center items-center' onSubmit={handleSubmit}>
                     <img
@@ -69,14 +69,15 @@ const Demo = () => {
                         className='url_input peer-focus:border-gray-700 peer-focus:text=gray-700'
                     />
 
-                            {/* <button
+                    <button
                         type='submit'
                         className='submit_btn peer'
                     >
                         ↵
-                    </button> */}
+                    </button>
 
                 </form>
+                */}
 
                 {/* Browse URL History */}
                 <div className='flex flex-col gap-1 max-h-60 overflow-y-auto'>
