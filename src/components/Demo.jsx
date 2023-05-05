@@ -69,12 +69,12 @@ const Demo = () => {
                         className='url_input peer-focus:border-gray-700 peer-focus:text=gray-700'
                     />
 
-                    <button
+                            {/* <button
                         type='submit'
                         className='submit_btn peer'
                     >
                         ↵
-                    </button>
+                    </button> */}
 
                 </form>
 
