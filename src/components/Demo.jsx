@@ -26,6 +26,8 @@ const Demo = () => {
     }, []);
 
     const handleSubmit = async (e) => {
+        // Empty the input field
+        setArticle({ ...article, url: '' });
         e.preventDefault();
         const { data } = await getSummary({ articleUrl: article.url });
         if(data?.summary) {
@@ -61,6 +63,7 @@ const Demo = () => {
                     />
 
                     <input
+                        id='url-input'
                         type='text'
                         placeholder='Enter a URL'
                         value={article.url}
@@ -106,10 +109,10 @@ const Demo = () => {
                     {isFetching ? (
                         <img src={loader} alt='loader' className='w-10' />
                     ) : error ? (
-                        <p className='font-inter font-bold text-black text-center'>
+                        <p className='font-inter font-bold text-white text-center mb-10'>
                             Well, there's something wrong here...
                             <br />
-                            <span className='font-satoshi font-normal text-gray-700'>
+                            <span className='font-satoshi font-normal text-red-300'>
                                 {error?.data?.error}
                             </span>
                         </p>
