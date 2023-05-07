@@ -12,7 +12,8 @@ const Hero = () => {
         <span className='orange_gradient '>OpenAI GPT-4</span>
       </h1>
       <h2 className='desc'>
-      "Streamline your reading experience with <span className='text-orange-300'>Summily</span>, the open-source article summarization tool that condenses lengthy articles into concise summaries."
+        Simplify your reading with <span className='text-orange-200'>Summily</span>, an open-source article summarizer
+        that transforms lengthy articles into clear and concise summaries.
       </h2>
     </header>
     )
