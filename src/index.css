@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(31, 41, 55, 0.5);
+  border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(249, 115, 22, 0.5);
+  border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(249, 115, 22, 0.8);
+}
+
+/* Soft gradient text fade effect */
+.text-gradient {
+  @apply bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent;
+}
+
+/* Custom animation for the illustration */
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-2deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(-3deg);
+  }
+}
+
+.floating-animation {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Better focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid theme('colors.orange.500');
+  outline-offset: 2px;
+}
+
+body {
+  @apply antialiased bg-gray-900 text-white;
+} 
