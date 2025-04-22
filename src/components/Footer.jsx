@@ -1,19 +1,17 @@
 import React from 'react'
-import { logo } from '../assets'
 
 const Footer = () => {
   return (
     <footer className="py-10 mt-16 border-t border-gray-800">
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center">
-          <img src={logo} alt="summily logo" className="w-8 h-8 mr-2" />
-          <span className="text-lg font-semibold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-            Summily
+          <span className="text-xl font-semibold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+            Brevity
           </span>
         </div>
         
         <p className="text-gray-400 text-sm text-center">
-          © {new Date().getFullYear()} Summily. All rights reserved.
+          © {new Date().getFullYear()} Brevity. All rights reserved.
         </p>
         
         <div className="flex items-center space-x-6">

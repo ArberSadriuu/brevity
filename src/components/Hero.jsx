@@ -1,4 +1,4 @@
-import { logo } from '../assets'
+import React from 'react'
 
 const Hero = () => {
   return (
@@ -12,9 +12,8 @@ const Hero = () => {
       {/* Navigation */}
       <nav className='flex justify-between items-center w-full mb-16'>
         <div className="flex items-center gap-2">
-          <img src={logo} alt='summily_logo' className='w-10 h-10 object-contain' />
-          <span className="text-xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-            Summily
+          <span className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
+            Brevity
           </span>
         </div>
       </nav>
@@ -44,7 +43,7 @@ const Hero = () => {
               <div className="w-3 h-3 rounded-full bg-red-400"></div>
               <div className="w-3 h-3 rounded-full bg-yellow-400"></div>
               <div className="w-3 h-3 rounded-full bg-green-400"></div>
-              <div className="ml-2 text-xs text-gray-400">article-summary.ai</div>
+              <div className="ml-2 text-xs text-gray-400">brevity.ai</div>
             </div>
             <div className="space-y-3">
               <div className="h-4 bg-gray-700 rounded w-3/4"></div>

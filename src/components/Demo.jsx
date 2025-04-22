@@ -108,7 +108,7 @@ const Demo = () => {
                                         Article Summarizer
                                     </h2>
                                     <p className="text-gray-400 mt-2">
-                                        Paste any article URL and get a concise summary instantly
+                                        Paste any article URL and get a concise summary with Brevity
                                     </p>
                                 </div>
                                 

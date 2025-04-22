@@ -1,6 +1,6 @@
-# Summily - AI Article Summarizer
+# Brevity - AI Article Summarizer
 
-Summily is a modern web application that uses OpenAI's GPT-4 model to summarize articles. Simply paste an article URL, and Summily will generate a concise summary for you.
+Brevity is a modern web application that uses OpenAI's GPT-4 model to summarize articles. Simply paste an article URL, and Brevity will generate a concise summary for you.
 
 ## Features
 
@@ -29,8 +29,8 @@ Summily is a modern web application that uses OpenAI's GPT-4 model to summarize 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/summily.git
-   cd summily
+   git clone https://github.com/yourusername/brevity.git
+   cd brevity
    ```
 
 2. Install dependencies:
@@ -57,7 +57,7 @@ Summily is a modern web application that uses OpenAI's GPT-4 model to summarize 
 ## How to Use
 
 1. Enter a URL of an article you want to summarize
-2. Click the "Go" button
+2. Click the "Summarize" button
 3. View the summary
 4. Your summarized articles will be saved in the History tab
 
@@ -70,5 +70,5 @@ MIT
 - [OpenAI](https://openai.com/) for the GPT model
 - [RapidAPI](https://rapidapi.com/) for the article summarization API
 - [React](https://reactjs.org/) for the frontend framework
-- [Redux Toolkit](https://redux-toolkit.js.org/) for state management
+- [Zustand](https://zustand-demo.pmnd.rs/) for state management
 - [Tailwind CSS](https://tailwindcss.com/) for styling 
